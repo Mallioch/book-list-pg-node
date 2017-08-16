@@ -1,0 +1,26 @@
+{
+  "name": "book-list-pg-node",
+  "version": "1.0.0",
+  "description": "This project is an example of how you could build a website with Node, Express, and PostgreSQL. This project and the accompanying YouTube videos is meant for junior developers who already have basic exposure to Node, Express, HTML, CSS, and JavaScript. I am going to try to assume that you're not particularly comfortable with any of them though so I will explain a lot along the way. I'm going to assume you know nothing about PostgreSQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mallioch/book-list-pg-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mallioch/book-list-pg-node/issues"
+  },
+  "homepage": "https://github.com/Mallioch/book-list-pg-node#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "mustache-express": "^1.2.5"
+  }
+}
