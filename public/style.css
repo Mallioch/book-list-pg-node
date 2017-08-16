@@ -52,6 +52,12 @@ h1 {
   font-size: 2em;
   color: #333; }
 
+table {
+  margin: 1em 0; }
+
+td {
+  padding: 5px; }
+
 .list-page h1 {
   color: green; }
 

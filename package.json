@@ -25,6 +25,7 @@
     "express": "^4.15.4",
     "mustache-express": "^1.2.5",
     "node-sass": "^4.5.3",
-    "pg": "^7.1.2"
+    "pg": "^7.1.2",
+    "pg-camelcase": "0.0.3"
   }
 }

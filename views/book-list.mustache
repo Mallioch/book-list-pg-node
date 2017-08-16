@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Book List</title>
+    <link rel="Stylesheet" href="style.css" />
+  </head>
+  <body class="list-page">
+
+    <h1>Book List Page</h1>
+
+    <table>
+    {{#rows}}
+      <tr>
+        <td>{{bookId}}</td>
+        <td>{{title}}</td>
+        <td>{{authors}}</td>
+        <td>
+          <form method="POST" action="/book/delete/{{bookId}}">
+            <button type="submit">delete</button>
+          </form>
+        </td>
+      </tr>
+    {{/rows}}
+    </table>
+
+
+  </body>
+</html>

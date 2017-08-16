@@ -12,5 +12,13 @@ h1 {
   color: $primary-color;
 }
 
+table {
+  margin: 1em 0;
+}
+
+td {
+  padding: 5px;
+}
+
 @import 'list-page';
 @import 'book-form';
